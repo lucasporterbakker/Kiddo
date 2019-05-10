@@ -33,7 +33,7 @@ body{
 	text-align: center;
 }
 h1, h2, h3, h4, h5, h6{
-	font-family: montserrat;
+	font-family: arial;
 }
 .font-2{
 	font-family: 'josefin sans';
@@ -76,9 +76,3 @@ h1, h2, h3, h4, h5, h6{
 	opacity: .7;
 	text-decoration: none;
 }
-
-
-
-
-
-
