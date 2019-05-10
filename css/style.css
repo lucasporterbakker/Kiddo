@@ -1,7 +1,7 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700|Josefin+Sans:400,600,700,400italic,600italic);
+/* @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700|Josefin+Sans:400,600,700,400italic,600italic); */
 
 body{
-	font-family: 'josefin sans';
+	font-family: 'helvetica';
 	font-size: 16px;
 }
 /* https://images.unsplash.com/photo-1439902315629-cd882022cea0?fit=crop&fm=jpg&h=975&q=80&w=1925 */
@@ -33,16 +33,16 @@ body{
 	text-align: center;
 }
 h1, h2, h3, h4, h5, h6{
-	font-family: montserrat;
+	font-family: arial;
 }
 .font-2{
-	font-family: 'josefin sans';
+	font-family: 'arial';
 	font-weight: 700;
 }
 .title{ letter-spacing: .3em; text-transform: uppercase; }
 .text-light{ color: #fff }
 .font-alt{
-	font-family: 'georgia';
+	font-family: 'arial';
 	font-style: italic;
 	color: #666;
 }
