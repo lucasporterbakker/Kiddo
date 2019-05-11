@@ -32,15 +32,23 @@ body{
 	vertical-align: middle;
 	text-align: center;
 }
-h1, h2, h3, h4, h5, h6{
+h2, h3, h4, h5, h6{
 	font-family: arial;
 }
+
+
 .font-2{
 	font-family: 'arial';
 	font-weight: 700;
 }
-.title{ letter-spacing: .3em; text-transform: uppercase; }
-.text-light{ color: #fff }
+.title{
+	letter-spacing: .3em;
+	text-transform:
+	uppercase;
+}
+
+.text-light { color: #fff }
+
 .font-alt{
 	font-family: 'arial';
 	font-style: italic;
