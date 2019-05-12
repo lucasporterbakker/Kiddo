@@ -29,6 +29,10 @@ body{
 } */
 
 
+.blurb-bio{
+	font-size: .5em !important;
+}
+
 .hero-title{
 	display: table-cell;
 	vertical-align: middle;
