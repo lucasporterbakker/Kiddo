@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>TEST</title>
+  <link rel="stylesheet" href="test.css">
+  <meta name="viewport" content= "width=device-width, initial-scale=1.0">
+</head>
+
+
+<style media="screen">
+.wrapper {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.gradient {
+  margin: auto;
+  background-image: linear-gradient(#000000, rgba(11, 39, 65, 0.32) 95%, rgba(0, 0, 0, 0.0));
+  width: 100%;
+  height: 100vh;
+  min-height: 800px;
+  object-fit: cover;
+  position: relative;
+  /* z-index: 2; */
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  min-height: 600px;
+  object-fit: cover;
+}
+
+.hero-test{
+  height: 99vh;
+  width: 100%;
+  position: fixed;
+  margin: auto;
+  top: 0;
+  z-index: 9;
+  transition: all 1.6s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+
+.hero-inner-test{
+
+  background-size: cover;
+  background-position: center;
+  display: table;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+}
+
+
+.hero-title{
+  display: table-cell;
+  vertical-align: top;
+  /* padding-top: 175px; */
+  text-align: center;
+}
+
+img {
+  padding-top: 50px;
+  padding-bottom: 100px
+}
+
+@media only screen and (min-width : 375px)
+and (max-width : 812px) {
+  h1 {
+    font-size: 4em !important;
+    margin-top: 5px !important;
+    vertical-align: top !important;
+    top: 0 !important;
+    /* padding-bottom: 250px !important; */
+  }
+  .hero-inner{
+    background-image: linear-gradient(-225deg, rgba(0, 101, 168, 0.6) 0%, rgba(0, 36, 61, 0.6) 50%), url(images/banner-mobile.png);
+    background-size: cover;
+    background-position: center;
+    /* display: table; */
+    width: 100%;
+    margin: auto;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+  }
+
+  .hero-title{
+    /* display: table-cell; */
+    vertical-align: top;
+    padding: 15px;
+    text-align: center;
+  }
+
+  img{
+    padding-top: 10px;
+    width: 200px;
+    display: table;
+  }
+
+  h4{
+    font-family: 'helvetica';
+    /* It's all .. */
+    font-size: 21px !important;
+    padding: 15px;
+    margin: 0;
+  }
+}
+
+h4{
+  font-family: 'helvetica';
+  /* It's all .. */
+  font-size: 18px;
+  padding: 15px;
+  margin: 0;
+}
+
+</style>
+
+
+<div class="wrapper">
+  <div class="gradient">
+    <div class="hero-test">
+      <img src="images/laurel.png" alt="nationalfilmboard" width="200" style="padding: 10 px">
+    </div>
+  </div>
+  <div class="video">
+    <div style="padding:56.25% 0 0 0;position:relative;background: linear-gradient(#2C2C2C, #020202)">
+      <iframe src="https://player.vimeo.com/video/336445105?autoplay=1&loop=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen>
+      </iframe>
+    </div>
+  </div>
+</div>
+
+
+<script src="https://player.vimeo.com/api/player.js"></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
+<script src='http://achtungthemes.com/gnoli/js/lib/scripts.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.0/SmoothScroll.min.js'></script>
+
+<script src="js/index.js"></script>
+</html>

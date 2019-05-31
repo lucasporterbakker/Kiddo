@@ -1,0 +1,15 @@
+body {
+	background: repeating-linear-gradient(-45deg,red,red 20px,blue 20px,blue 40px);
+	background-size:56px 56px;/* This is unique for this background, need to find a pattern and develop a formula */
+	background-position-x:0%;
+	-webkit-animation:'slide' 20s infinite linear forwards;
+
+}
+@-webkit-keyframes 'slide' {
+	0%{
+		background-position-x:0%;
+	}
+	100% {
+		background-position-x:100%;
+	}
+}
